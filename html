@@ -1,0 +1,74 @@
+<html> 
+<head> <title> Portfolio </title> 
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+ <body>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    
+    <nav style="background-color: #263a47;">
+            <div class="nav-wrapper">
+                 <a href="#" class="material-icons" style="font-size: 4em;"> camera </a>
+                 <a href="#" data-activates="menu-mobile" class="button-collapse">
+                     <script>
+                         $(function(){
+                             $(".button-collapse").sideNav();
+                         });
+                    </script> 
+                    <i class="material-icons">menu</i>
+                 </a>
+                 <ul class="right hide-on-med-and-down">
+                     <li><a href="#">Galeria</a></li>
+                     <li><a href="#">Sobre</a></li>
+                     <li><a href="#">Contato</a></li>
+                 </ul>
+                 <ul class="side-nav" id="menu-mobile">
+                     <li><a href="#">Galeria</a></li>
+                     <li><a href="#">Sobre</a></li>
+                     <li><a href="#">Contato</a></li>
+                 </ul>
+            </div>
+    </nav>
+    <style> .glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(00, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    padding: 40px;
+    } 
+    </style>
+    <style> @font-face {
+        font-family: bright;
+        src: url(/fonts/glimmeroflight.ttf);
+    }
+    h1{
+        font-family: bright;
+        align-self: center;
+    }
+    @font-face {
+        font-family: poppins;
+        src: url(/fonts/Poppins-Italic.ttf);
+    }
+    </style>
+<section>
+    <h1 style="display: grid; place-items: center; font-size: x-large;"> 
+    Bem -Vindo  
+    </h1> 
+</section> 
+    <h2 style="display: grid; place-items: center; font-family: 'Times New Roman', Times, serif; font-size: xx-large;"> 
+     <div class="glass" class="z-depth-5"> <a style="color: black; size: 50em; font-family: poppins;font-weight: 500;font-size: larger;"> Capturando a beleza do momento </a> </div>
+    </h2>
+    <style> body {
+        background:
+        url(https://wallpapercave.com/wp/xREMNH6.jpg) no-repeat;
+        background-size: cover;
+        display: grid;
+        height: 100vh;
+    }
+    </style>
+</body>
+</html>
